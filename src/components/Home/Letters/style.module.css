@@ -1,0 +1,54 @@
+.letterContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    padding: 24px;
+}
+
+.letterContainerRight,
+.letterContainerLeft {
+    width: 50%;
+}
+
+.letterContainerRight {
+    font-family: 'Kolker Brush', cursive;
+    font-size: 35px;
+    line-height: 1.5;
+    color: white;
+    padding: 0 10%;
+}
+
+.letterContainerLeft .title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.letterContainerRight .image {
+    width: 100%;
+    height: auto;
+}
+
+.letterContainerLeft {
+    display: flex;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    font-family: 'Avo', sans-serif;
+    padding: 0 10%;
+}
+
+@media (max-width: 739px) {
+    .letterContainer {
+        flex-wrap: wrap;
+    }
+
+    .letterContainerLeft .title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .letterContainerRight,
+    .letterContainerLeft {
+        width: 100%;
+    }
+}
