@@ -15,7 +15,6 @@ import Verify from '@/components/Verify';
 import SideBar from '@/components/common/SideBar';
 import Navigation from '@/components/common/Navigation';
 import Contact from '@/components/common/Contact';
-import Chatbot from '@/components/common/Chatbot';
 
 import VanhoaDescription from '@/components/Vanhoa/Description';
 import VanhoaIntro from '@/components/Vanhoa/Intro';
@@ -38,7 +37,6 @@ export {
     Navigation,
     Register,
     Verify,
-    Chatbot,
     SideBar,
     VanhoaDescription,
     VanhoaIntro,
